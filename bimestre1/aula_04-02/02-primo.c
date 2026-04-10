@@ -7,7 +7,6 @@ int main() {
     scanf("%d",&n);
 
     for(int i = n-1; i > 1; i--){
-        printf("%d%d\n",i,primo);
         if(n % i == 0) {
             primo = 0;
         }
