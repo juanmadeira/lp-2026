@@ -1,6 +1,7 @@
+-- dado um inteiro positivo n, verificar se n é primo
 primo :: Int -> String
 primo x
-  | x < 2 = "nao eh primo" -- OBS.: compilador online nao aceita acentos o/
+  | x < 2 = "nao eh primo"
   | divisor x 2 = "nao eh primo"
   | otherwise = "eh primo"
 
